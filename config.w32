@@ -1,0 +1,7 @@
+// $Id$
+// vim:ft=javascript
+
+if (PHP_EPHPCONF != "no") {
+	EXTENSION("ephpconf", "ephpconf.c");
+}
+
